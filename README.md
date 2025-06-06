@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 📝 TextZip - Document Compression Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 Description
 
-## Available Scripts
+**TextZip** is a lightweight, browser-based web application that allows users to upload plain text documents and receive a compressed version for efficient storage or transmission. Built with React, this tool leverages intelligent compression algorithms to reduce file size while maintaining content integrity.
 
-In the project directory, you can run:
+Ideal for students, professionals, or anyone working with large text files, this tool simplifies the process of minimizing document sizes without the need for third-party software.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌟 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📤 **Upload Text Files:** Easily upload `.txt` files from your local device.
+- ⚙️ **Smart Compression:** Applies lightweight text compression to reduce file size.
+- 📥 **Download Output:** Download the compressed file instantly.
+- 🧮 **Compression Stats:** Displays original vs compressed file size comparison.
+- 💻 **Client-Side Processing:** Ensures privacy by performing all compression in-browser.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- **Frontend:** React, JavaScript, HTML5, CSS3
+- **Libraries:** FileSaver.js, JSZip (or custom compression logic)
+- **Hosting:** Deployable on Vercel, Netlify, or GitHub Pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+textzip-app/
+│
+├── public/
+│ └── index.html
+│
+├── src/
+│ ├── components/
+│ │ └── FileUploader.jsx
+│ │ └── Compressor.jsx
+│ ├── App.js
+│ ├── App.css
+│ ├── index.js
+│ ├── index.css
+│ └── index.css
+│ ├── App..test.js
+│ ├── reportWebVitals.js
+│ └── setupTest.js
+│
+├── package.json
+└── README.md
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ How to Run Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🧱 Prerequisites
 
-## Learn More
+Make sure you have:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js and npm installed. [Download Node.js](https://nodejs.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
+Start the development server:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+```
