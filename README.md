@@ -25,7 +25,7 @@ Ideal for students, professionals, or anyone working with large text files, this
 - **Hosting:** Deployable on Vercel, Netlify, or GitHub Pages
 
 ---
-
+```text
 ## 📂 Project Structure
 
 textzip-app/
@@ -48,7 +48,7 @@ textzip-app/
 │
 ├── package.json
 └── README.md
-
+```
 
 
 ---
